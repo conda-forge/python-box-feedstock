@@ -24,10 +24,10 @@ All platforms:
 
 Current release info
 ====================
-[![Conda Recipe](https://img.shields.io/badge/recipe-python--box-green.svg)](https://anaconda.org/conda-forge/python-box)
-[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/python-box.svg)](https://anaconda.org/conda-forge/python-box)
-[![Conda Version](https://img.shields.io/conda/vn/conda-forge/python-box.svg)](https://anaconda.org/conda-forge/python-box)
-[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/python-box.svg)](https://anaconda.org/conda-forge/python-box)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-python--box-green.svg)](https://anaconda.org/conda-forge/python-box) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/python-box.svg)](https://anaconda.org/conda-forge/python-box) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/python-box.svg)](https://anaconda.org/conda-forge/python-box) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/python-box.svg)](https://anaconda.org/conda-forge/python-box) |
 
 Installing python-box
 =====================
