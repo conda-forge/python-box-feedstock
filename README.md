@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About python-box
 ================
 
@@ -23,8 +19,17 @@ back into a regular dictionary.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/python-box-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/python-box-feedstock)
+
+<table><tr>
+    
+    <td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5400&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-box-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
