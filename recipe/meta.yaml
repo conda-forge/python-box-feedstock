@@ -1,6 +1,6 @@
 {% set name = "python-box" %}
-{% set version = "3.4.4" %}
-{% set sha256 = "4c698279ec1e28089389659b21610093f81fa5d59a0090af4dadc08ca6fe08dc" %}
+{% set version = "3.4.5" %}
+{% set sha256 = "ff2ccbbc06b9b8cfb4d00e3113079bfcd4a050365ad9aa774cb3003da705ad06" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
