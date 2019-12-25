@@ -1,6 +1,6 @@
 {% set name = "python-box" %}
-{% set version = "3.4.6" %}
-{% set sha256 = "694a7555e3ff9fbbce734bbaef3aad92b8e4ed0659d3ed04d56b6a0a0eff26a9" %}
+{% set version = "4.0.1" %}
+{% set sha256 = "f0580a5636a735f6a8df875aa576be123c8dc9a444d7f9a6684b40efc0e5fb52" %}
 
 package:
   name: {{ name|lower }}
@@ -18,11 +18,13 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - pip
     - pytest-runner
   run:
-    - python
+    - python >=3.6
+    - ruamel.yaml
+    - toml
 
 test:
   imports:
