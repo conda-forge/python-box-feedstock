@@ -23,6 +23,7 @@ requirements:
     - pytest-runner
   run:
     - python >=3.6
+    - ruamel.yaml
 
 test:
   imports:
