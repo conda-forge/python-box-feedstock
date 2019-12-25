@@ -24,6 +24,7 @@ requirements:
   run:
     - python >=3.6
     - ruamel.yaml
+    - toml
 
 test:
   imports:
