@@ -1,6 +1,6 @@
 {% set name = "python-box" %}
-{% set version = "4.0.1" %}
-{% set sha256 = "f0580a5636a735f6a8df875aa576be123c8dc9a444d7f9a6684b40efc0e5fb52" %}
+{% set version = "4.0.2" %}
+{% set sha256 = "1547af8413820a5b21387b9e551d8066efc326db91383bda4a6f9d296729a88c" %}
 
 package:
   name: {{ name|lower }}
