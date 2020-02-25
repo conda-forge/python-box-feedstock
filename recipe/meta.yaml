@@ -23,12 +23,15 @@ requirements:
     - pytest-runner
   run:
     - python >=3.6
+    - pip
     - ruamel.yaml
     - toml
 
 test:
   imports:
     - box
+  commands:
+    - pip check
 
 about:
   home: https://github.com/cdgriffith/Box
