@@ -1,6 +1,6 @@
 {% set name = "python-box" %}
-{% set version = "4.1.0" %}
-{% set sha256 = "2810256830b7f73d3b5ec3bdc98687965ee8889984eec3c8415df8390b62bdad" %}
+{% set version = "4.2.0" %}
+{% set sha256 = "4b4242762c669d575cfe43893610fa77727ae2035d231dbd98fe24b7ac222806" %}
 
 package:
   name: {{ name|lower }}
@@ -37,8 +37,8 @@ about:
   home: https://github.com/cdgriffith/Box
   license: MIT
   license_family: MIT
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
-  summary: 'Python dictionaries with recursive dot notation access'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
+  summary: Python dictionaries with recursive dot notation access
   description: |
     Box is designed to be an easy drop in transparently replacements for dictionaries, 
     thanks to Python’s duck typing capabilities, which adds dot notation access. Any sub 
