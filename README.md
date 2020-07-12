@@ -5,7 +5,7 @@ Home: https://github.com/cdgriffith/Box
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python dictionaries with recursive dot notation access
 
