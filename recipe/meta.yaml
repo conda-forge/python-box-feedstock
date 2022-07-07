@@ -12,17 +12,19 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
+  build:
+    - {{ compiler('c') }}
   host:
-    - python >=3.6
+    - python
+    - cython
     - pip
     - pytest-runner
   run:
-    - python >=3.6
+    - python
     - pip
     - ruamel.yaml
     - toml
