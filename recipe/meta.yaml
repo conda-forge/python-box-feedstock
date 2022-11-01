@@ -1,6 +1,6 @@
 {% set name = "python-box" %}
-{% set version = "6.0.2" %}
-{% set sha256 = "c15f09fa2a8730702115396b490ddc17dde3d4276a4f24eb754e35f102c41347" %}
+{% set version = "6.1.0" %}
+{% set sha256 = "6e7c243b356cb36e2c0f0e5ed7850969fede6aa812a7f501de7768996c7744d7" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 4
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
