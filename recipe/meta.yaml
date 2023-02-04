@@ -1,6 +1,6 @@
 {% set name = "python-box" %}
-{% set version = "6.1.0" %}
-{% set sha256 = "6e7c243b356cb36e2c0f0e5ed7850969fede6aa812a7f501de7768996c7744d7" %}
+{% set version = "7.0.0" %}
+{% set sha256 = "727af276177b3c2c0e7e2acea2152269ec85d9fc012a4ffe8df962e2a2d57613" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -26,6 +26,7 @@ requirements:
     - cython
     - pip
     - pytest-runner
+    - poetry
   run:
     - python
     - pip
