@@ -26,6 +26,7 @@ requirements:
     - cython
     - pip
     - pytest-runner
+    - poetry
   run:
     - python
     - pip
