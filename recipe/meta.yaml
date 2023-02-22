@@ -1,6 +1,6 @@
 {% set name = "python-box" %}
-{% set version = "7.0.0" %}
-{% set sha256 = "727af276177b3c2c0e7e2acea2152269ec85d9fc012a4ffe8df962e2a2d57613" %}
+{% set version = "7.0.1" %}
+{% set sha256 = "dc6724f88255ccbc07092abd506281439cc2b75c6569c754ffc2b22580e7ae06" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
