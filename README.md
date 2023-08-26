@@ -1,11 +1,11 @@
-About python-box
-================
+About python-box-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-box-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/cdgriffith/Box
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-box-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python dictionaries with recursive dot notation access
 
