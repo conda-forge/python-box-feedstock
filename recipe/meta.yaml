@@ -1,6 +1,6 @@
 {% set name = "python-box" %}
-{% set version = "7.1.1" %}
-{% set sha256 = "2a3df244a5a79ac8f8447b5d11b5be0f2747d7b141cb2866060081ae9b53cc50" %}
+{% set version = "7.2.0" %}
+{% set sha256 = "551af20bdab3a60a2a21e3435120453c4ca32f7393787c3a5036e1d9fc6a0ede" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -21,6 +21,7 @@ requirements:
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - cython                                 # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - cython
