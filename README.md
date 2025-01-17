@@ -379,6 +379,3 @@ Feedstock Maintainers
 * [@cdgriffith](https://github.com/cdgriffith/)
 * [@jan-janssen](https://github.com/jan-janssen/)
 
-
-<!-- dummy commit to enable rerendering -->
-
