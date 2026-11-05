@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: python-box
-  version: "7.4.1"
-  sha256: e412e36c25fca8223560516d53ef6c7993591c3b0ec8bb4ec582bf7defdd79f0
+  version: "8.0.0"
+  sha256: 13b103ba7a4a1f2f6bcf8ee7eb2580ddebdc73ab728850965f578fc4b9e890bf
 
 package:
   name: ${{ name|lower }}
@@ -14,7 +14,7 @@ source:
   sha256: ${{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
