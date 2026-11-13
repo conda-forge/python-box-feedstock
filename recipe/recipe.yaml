@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: python-box
-  version: "8.0.0"
-  sha256: 13b103ba7a4a1f2f6bcf8ee7eb2580ddebdc73ab728850965f578fc4b9e890bf
+  version: "8.0.1"
+  sha256: 425432a41bd16ffdbf2258de86200a7ba8145c28dd49c52c060ecff9786e6b2a
 
 package:
   name: ${{ name|lower }}
